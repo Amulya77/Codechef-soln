@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        float a1,a2,a3,v;
+        float ch=9.58,ch1;
+        cin>>a1;
+        cin>>a2;
+        cin>>a3;
+        cin>>v;
+        ch1=(a1*a2*a3*v);
+        ch1=100/ch1;
+        ch1=(int)(ch1*100+.5);
+        ch1=ch1/100;
+        if(ch>ch1)
+        cout<<"YES";
+        else
+        cout<<"NO";
+        cout<<endl;
+        
+        
+    }
+	
+	return 0;
+}
